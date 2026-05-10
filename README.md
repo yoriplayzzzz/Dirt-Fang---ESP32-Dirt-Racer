@@ -40,6 +40,8 @@ Therefore The motors on the ***left side are connected to the same BTS7960*** an
 | **GPIO 13** | L_EN | Left Enable |
 
 
+<img width="1600" height="1504" alt="Circuit Diagram" src="https://github.com/user-attachments/assets/0e56af0c-94a2-4d88-9085-936ebf3b8629" />
+
 ## Power Distribution
 
 | Connection | Path | Target |
@@ -56,6 +58,9 @@ For the Installation, first we need to download the USB to UART Convertor Driver
 - Go to [***Silicon Labs Website.***](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=overview)
 - Open the Download Section
 - Download The ***Windows VCP Driver***
+  
+  <img width="1899" height="825" alt="Cp2102" src="https://github.com/user-attachments/assets/bfe82991-2dab-4705-aceb-4ca50d5ab3cf" />
+
 
 Now the second step is to Download the Flash Tool. We will use the Flash Tool Downloader provided by [**Espressif themselves**](https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32c6/production_stage/tools/flash_download_tool.html).
 
@@ -79,8 +84,13 @@ Now the second step is to Download the Flash Tool. We will use the Flash Tool Do
 └── |ESP32-BTS7960.ino.bin| 0x10000
 ```
 
+<img width="423" height="689" alt="Screenshot 2026-05-10 172659" src="https://github.com/user-attachments/assets/3effde10-cbdd-4e87-a20a-d5c06d593be0" />
+
+
 - Click ***START***. Now the code is uploaded.
 - Hit the **EN** button and reset the ESP32. Now Open your bluetooth settings and try searching for ***ESP32-Dirt-Fang***
+  <img width="1080" height="730" alt="1778414071412" src="https://github.com/user-attachments/assets/c6e14c40-5e4d-4efc-a395-bcd66c7be9cb" />
+
 
 - Download the [***BLUETOOTH RC CAR CONTROL APP***](https://drive.google.com/file/d/1Wrmlk7zawrU3TbYtjh0lwUrek8ABfNiz) on your mobile. 
 
